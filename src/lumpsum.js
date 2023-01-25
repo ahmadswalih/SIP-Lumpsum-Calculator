@@ -10,7 +10,6 @@ const LumpSumCalculator = () => {
   // The equation used here is A=P*(1+(rate of Interest/100)^t) . where A= final Amount,P= Principal & t= time period
   const handleCalculate = () => {
     setLumpSum((principal * Math.pow((1+(25.2/100)),time) ));//rate of interest is constant here (ie is 25.2)
-    console.log(lumpSum);
     
   };
 
